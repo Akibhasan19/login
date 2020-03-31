@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.bg-img{
+    min-height: 500px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.form{
+    background: #fff;
+    max-width: 250px;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 16px;
+
+}
+input[type="email"], input[type= "password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+
+}
+.btn{
+    border: none;
+    background: lightseagreen;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn:hover{
+    background: red;
+}
